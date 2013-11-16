@@ -1,0 +1,32 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background: #CCC;
+    font-family: Arial;
+    font-size: 12px;
+}
+
+ul li {
+    list-style: none;
+}
+
+
+#topo {
+    background-color: orange;
+    padding: 5px;
+    text-align: center;
+}
+
+/* JOGO */
+
+#jogo ul li{
+    width: 70px;
+    height: 100px;
+    border: black solid 1px;
+    margin: 10px;
+    float: left;
+    background: white;
+}

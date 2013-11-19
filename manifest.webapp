@@ -1,0 +1,19 @@
+{
+    "name": "Mémoria Dragon Ball",
+    "version": "0.1",
+    "description": "Jogo da memória",
+    "launch_path": "/index.html",
+    "developer": {
+        "name": "Willem Allan",
+        "url": "http://www.willemallan.com.br"
+    },
+    "default_locale": "pt-BR",
+    "icons": {
+        "32": "/static/imgs/icon32.png",
+        "60": "/static/imgs/icon60.png",
+        "90": "/static/imgs/icon90.png",
+        "120": "/static/imgs/icon120.png",
+        "128": "/static/imgs/icon128.png",
+        "256": "/static/imgs/icon256.png"
+    }
+}

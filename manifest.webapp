@@ -1,13 +1,27 @@
 {
-    "name": "Mémoria Dragon Ball",
-    "version": "0.1",
+    "name": "Jogo da Mémoria",
     "description": "Jogo da memória",
+    "version": "0.1",
     "launch_path": "/index.html",
     "developer": {
         "name": "Willem Allan",
         "url": "http://www.willemallan.com.br"
     },
     "default_locale": "pt-BR",
+    "locales": {
+        "en": {
+            "name": "Jogo da Mémoria",
+            "description": "Jogo da mémoria do Dragon Ball."
+        },
+        "pt-BR": {
+            "name": "Jogo da Mémoria",
+            "description": "Jogo da mémoria do Dragon Ball."
+        },
+        "en-US": {
+            "name": "Jogo da Mémoria",
+            "description": "Jogo da mémoria do Dragon Ball."
+        }
+    },
     "icons": {
         "32": "/static/imgs/icon32.png",
         "60": "/static/imgs/icon60.png",

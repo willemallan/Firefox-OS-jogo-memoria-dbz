@@ -6,7 +6,7 @@
 body {
     background: #CCC;
     font-family: Arial;
-    font-size: 12px;
+    font-size: 11px;
 }
 
 ul li {
@@ -22,11 +22,30 @@ ul li {
 
 /* JOGO */
 
-#jogo ul li{
+.carta{
     width: 70px;
-    height: 100px;
+    height: 70px;
+    border-radius: 70px;
     border: black solid 1px;
-    margin: 10px;
+    margin: 5px 0px 0px 5px;
     float: left;
     background: white;
+    text-align: center;
+}
+
+.virada{
+    width: 70px;
+    height: 70px;
+    border-radius: 70px;
+    border: black solid 1px;
+    margin: 5px 0px 0px 5px;
+    float: left;
+    background: white;
+    text-align: center;
+    z-index: 10;
+}
+
+#jogo ul li img {
+    margin-top: 10px;
+    z-index: 2;
 }
